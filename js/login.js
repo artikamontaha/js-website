@@ -10,7 +10,7 @@ document.getElementById('login_button').addEventListener('click', function(event
 
     if(phone_Number === '10' && pin_number === '3478'){
         console.log('your Phone number & pin Number is correct')
-        window.location.href = '/home.html'
+        window.location.href = '../home.html'
     }
     else{
         alert('please check your Number of password')
