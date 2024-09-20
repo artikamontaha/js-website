@@ -25,7 +25,7 @@ document.getElementById('btn-add-money')
         
         // step-3: verify pin number
         // wrong way to validate pin number
-        if(pinNumberInput === '3478'){
+        if(pinNumberInput === '1234'){
             console.log('adding money to your account');
 
             // step-4: get the current balance

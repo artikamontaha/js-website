@@ -8,7 +8,7 @@ document.getElementById('login_button').addEventListener('click', function(event
 
     console.log(phone_Number, pin_number)
 
-    if(phone_Number === '10' && pin_number === '3478'){
+    if(phone_Number === '10' && pin_number === '1234'){
         console.log('your Phone number & pin Number is correct')
         window.location.href = './home.html'
     }
